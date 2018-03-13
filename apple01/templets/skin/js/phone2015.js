@@ -1,6 +1,6 @@
 /*
 * 智能机浏览器版本信息:
-*
+* 这里实现的功能是检测是否是手机，跳转到手机Wap站点，Mark By：Bobby
 */
 
   var browser={
@@ -70,18 +70,18 @@ if (browser.versions.ios||browser.versions.android||browser.versions.iPhone||bro
 		  //alert("你按了取消，那就是返回false");
 		}
 		*/
-		addCookie("popped2014","goto");
-		location.href="http://wap.i-xunwei.com";
+		//addCookie("popped2014","goto");
+		//location.href="http://wap.i-xunwei.com";
 	}
-	if (getCookie('popped2014')=='goto'){
-		if (document.location.href=="http://www.i-xunwei.com" || document.location.href=="http://www.i-xunwei.com/")
-		{
-			location.href="http://wap.i-xunwei.com/";
-		}
-		else
-		{
-			addCookie("popped2014","stop");
-		}
-	}/**/
+	//if (getCookie('popped2014')=='goto'){
+	//	if (document.location.href=="http://www.i-xunwei.com" || document.location.href=="http://www.i-xunwei.com/")
+	//	{
+	//		location.href="http://wap.i-xunwei.com/";
+	//	}
+	//	else
+	//	{
+	//		addCookie("popped2014","stop");
+	//	}
+	//}/**/
 	
 }

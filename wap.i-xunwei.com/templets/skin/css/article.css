@@ -1,0 +1,55 @@
+/* CSS Document By »ªÃÀÊÖ»úÕ¾ Author:Lance E-mail:zlmlovem@qq.com QQ:350656405 Date:2013-05-24 */
+.articleMain{padding:10px; font-size:15px; line-height:1.6; border-top:1px solid #f4f4f4;border-bottom:1px solid #cbc9c9;}
+.articleMain .articleTitle h1{font-weight:600}
+.articleMain .articleTitle p{line-height:28px; padding:8px 0; font-size:12px; color:#999;}
+.articleMain .articleTitle p span.left{float:left}
+.articleMain .articleTitle p span.right{float:right}
+.articleMain .articleContent{color:#484747;}
+.articleMain .articlePrevNext{color:#056ba0; margin-top:10px;}
+
+.relationread{padding:10px; font-size:18px;}
+.relationread a{color:#056ba0;}
+
+
+.hmpage a {
+	width:50%
+}
+.hmpage a.selected {
+	border-bottom:3px solid #0088ca
+}
+.hmpage_list {
+	height:36px;
+	line-height:36px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-user-select:none
+}
+.hmpage_list a {
+	text-align:center;
+	height:36px;
+	font-size:16px;
+	display:inline-block;
+	border-right:1px solid #d6d4d9;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	background:#2e3642;
+	color:#f4f3f3;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-user-select:none
+}
+.hmpage_list a:hover {
+	color:#ffffff;
+}
+.hmpage_list a:active {
+	background:#d6d4d9
+}
+.hmpage_list a:first-child {
+	border-left:0
+}
+.hmpage_list a:last-child {
+	border-right:0
+}
+
+
