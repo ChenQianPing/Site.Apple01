@@ -1,0 +1,97 @@
+/*WEB FONT*/
+html[lang=zh-CN] body { font-size: 16px; }
+.main p { font-size: 15px; }
+.puncuation { letter-spacing: -0.1em; }
+.nowrap { white-space: nowrap; }
+.more { font-size: 16px; }
+.more::after { top: -1px; }
+div.row.store-hours-row{ font-size: 15px;}
+.store-page .section-store-summary .store-details {
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.store-page .store-hours-day{width: 36%;}
+.store-page .store-hours-time{width: 64%;}
+.store-page.holidayplazashenzhen .store-hours-day{width: 52%;}
+.store-page.holidayplazashenzhen .store-hours-time{width: 48%;}
+.store-page.mixcchengdu .store-hours-day{width: 52%;}
+.store-page.mixcchengdu .store-hours-time{width: 48%;}
+.store-page.mixczhengzhou .store-hours-day{width: 52%;}
+.store-page.mixczhengzhou .store-hours-time{width: 48%;}
+
+.store-page .section-store-calendar .column.reserve .button, .store-page .section-store-calendar .column.reserve .main .submit.active, .main .store-page .section-store-calendar .column.reserve .submit.active { float: right; margin-top: 16px; }
+
+.store-page .section-store-promo h3, .store-page .section-store-promo p { padding-right: 18px; }
+
+.store-page .section-store-calendar .filter-label { margin-right: 0px; }
+
+.store-page .section-store-promo-gallery .store-promo-tile p { font-size: 16px; line-height: 1.8; }
+
+.store-page .section-hero h1 { font-size: 39px; line-height: 1.1; letter-spacing: 1px; }
+@media only screen and (max-width: 1068px) { .store-page .section-hero h1 { font-size: 29px; line-height: 1.1; letter-spacing: 1px; } }
+@media only screen and (max-width: 735px) { .store-page .section-hero h1 { font-size: 25px; line-height: 1.1; letter-spacing: 1px; } }
+html.oldie[lang=zh-CN] .store-page .section-hero h1 { font-family: 'Microsoft yahei','Î¢ÈíÑÅºÚ', "STHeitiSC-Light", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
+
+.store-page .section-store-services h2 { font-size: 29px; line-height: 1.1; letter-spacing: 1px; }
+@media only screen and (max-width: 1068px) { .store-page .section-store-services h2 { font-size: 25px; line-height: 1.1; letter-spacing: 1px; } }
+@media only screen and (max-width: 735px) { .store-page .section-store-services h2 { font-size: 21px; line-height: 1.1; letter-spacing: 1px; } }
+html.oldie[lang=zh-CN] .store-page .section-store-services h2 { font-family: 'Microsoft yahei','Î¢ÈíÑÅºÚ', "STHeitiSC-Light", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
+
+.store-page .section-store-promo h3 { font-size: 25px; }
+@media only screen and (max-width: 1068px) { .store-page .section-store-promo h3 { font-size: 21px; line-height: 1.2; letter-spacing: 1px; } }
+html.oldie[lang=zh-CN] .store-page .section-store-promo h3 { font-family: 'Microsoft yahei','Î¢ÈíÑÅºÚ', "STHeitiSC-Light", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
+
+.store-page .section-store-calendar .store-calendar-date { font-family: "PingHei","Lucida Grande", "Lucida Sans Unicode", "STHeitiTC-Light", "Helvetica","Arial","Verdana","sans-serif"; font-size: 21px; }
+
+.store-page .section-store-calendar h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "STHeitiSC-Light", "Helvetica","Arial","Verdana","sans-serif"; font-size: 14px; }
+html.oldie[lang=zh-CN] .store-page .section-store-calendar h4 { font-family: "Lucida Grande", "Lucida Sans Unicode", "STHeitiSC-Light", "Helvetica","Arial","Verdana","sans-serif"; }
+
+.store-page .section-store-calendar .column.description p { font-size: 14px; }
+
+/*.store-page.sanlitun .section-hero h1 { font-family: "Lucida Grande", "Lucida Sans Unicode", "STHeitiSC-Light", "Helvetica","Arial","Verdana","sans-serif";font-size: 33px;line-height: 1.1; letter-spacing: 0px;}
+@media only screen and (max-width: 1068px) { .store-page.sanlitun .section-hero h1 { font-size: 25px; line-height: 1.1; letter-spacing: 0px; } }
+@media only screen and (max-width: 735px) { .store-page.sanlitun .section-hero h1 { font-size: 21px;line-height: 1.1; letter-spacing: 0px; } } */
+
+
+.image-store-personal-setup {
+    background-repeat: no-repeat;
+    background-size: 321px 191px;
+    height: 191px;
+    width: 321px;
+    background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 144), (min-resolution: 144dppx) {
+    .image-store-personal-setup {
+        background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-store-personal-setup {
+        background-size: 225px 134px;
+        height: 134px;
+        width: 225px;
+        background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 144dpi), only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 144), only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+    .image-store-personal-setup {
+        background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .image-store-personal-setup {
+        background-size: 736px 436px;
+        height: 436px;
+        width: 736px;
+        background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 144dpi), only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 144), only screen and (max-width: 735px) and (min-resolution: 144dppx) {
+    .image-store-personal-setup {
+        background-image: url("http://images.apple.com/cn/retail/store/images/store/personal_setup_small_2x.jpg")
+    }
+}

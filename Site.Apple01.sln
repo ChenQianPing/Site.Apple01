@@ -45,6 +45,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "apple01", "apple01\", "{56E
 		SlnRelativePath = "apple01\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wap.i-xunwei.com", "wap.i-xunwei.com\", "{A56074B9-CD7C-4ECD-894A-87C753BD9BAE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6963"
+		Debug.AspNetCompiler.PhysicalPath = "wap.i-xunwei.com\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6963\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6963"
+		Release.AspNetCompiler.PhysicalPath = "wap.i-xunwei.com\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6963\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6963"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +74,8 @@ Global
 		{D6D5E88F-9ECD-4235-A4AF-0AA42B81B3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56EA7CC6-A2E5-4922-824B-B0240428D9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56EA7CC6-A2E5-4922-824B-B0240428D9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56074B9-CD7C-4ECD-894A-87C753BD9BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56074B9-CD7C-4ECD-894A-87C753BD9BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

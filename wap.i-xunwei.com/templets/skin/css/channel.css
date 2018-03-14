@@ -1,0 +1,32 @@
+/* CSS Document By 苹果科技技术 Author:Lance E-mail:1053259377@qq.com QQ:1053259377 Date:2015-05-24 */
+.applenews {
+	padding:0px 15px;
+	line-height:150%;
+	border-top:1px solid #f4f4f4;
+	border-bottom:1px solid #cbc9c9;
+	overflow:hidden;
+}
+.news_list dt{padding-top:10px;}
+.news_list dt a{line-height: 18px; margin-bottom: 5px; margin-top:3px; font-size:17px; color:#000}
+.news_list dt a:hover{color:#90c; text-decoration:none;}
+.news_list dd{border-bottom:1px dashed #9b9ca5; padding:10px 0 8px 0; color:#6a6c7b; display: -webkit-box;}
+.news_list dd:last-child{border-bottom:0}
+.news_list>dd a{-webkit-box-flex:1; display: block;}
+.news_list>dd a.img{display: inline-block;}
+.news_list>dd a.img{width: 96px; height: 64px; overflow: hidden}
+.news_list .news_link{-webkit-box-flex: 1; line-height: 1; overflow: hidden;}
+.news_list .summary{font-size:14px; line-height:20px; padding-right:5px;}
+
+.channel_pro {
+	font-size:16px;
+	line-height:24px;
+	color:#6a6c7b;
+	word-wrap:break-word;
+	padding:10px 15px;
+	border-top:1px solid #f4f4f4;
+	border-bottom:1px solid #cbc9c9;
+	overflow:hidden;
+}
+.channel_pro h3{font-weight:bold; color:#000;}
+.channel_pro .txtlist{padding:0 0 10px 5px; margin-bottom:10px; border-bottom:1px dotted #9b9ca5;overflow:hidden;}
+.channel_pro .txtlist li{float:left;padding-left:10px;margin-right:20px; margin-bottom:5px;line-height:28px;_display:inline;border-bottom:1px solid #ccc;background:url(../images/bg_newsli.gif) 2px center no-repeat;}
