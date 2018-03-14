@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ixunwei", "ixunwei\", "{D6D
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50867"
+		SlnRelativePath = "ixunwei\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "apple01", "apple01\", "{56EA7CC6-A2E5-4922-824B-B0240428D9C6}"
@@ -41,6 +42,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "apple01", "apple01\", "{56E
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "51013"
+		SlnRelativePath = "apple01\"
 	EndProjectSection
 EndProject
 Global
