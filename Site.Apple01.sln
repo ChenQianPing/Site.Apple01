@@ -63,6 +63,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wap.i-xunwei.com", "wap.i-x
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "6963"
+		SlnRelativePath = "wap.i-xunwei.com\"
 	EndProjectSection
 EndProject
 Global
